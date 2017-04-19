@@ -1,5 +1,5 @@
 const alexa = require('alexa-app');
-const app = new alexa.app("hello-world");
+const app = new alexa.app("podcast");
 
 app.intent("HelloWorldIntent", {
     "slots": { "name": "AMAZON.US_FIRST_NAME" },
