@@ -46,7 +46,7 @@ you can test :
 * Echoism : https://echoism.io
 * Actual Amazon Device (i.e. Echo, Dot or Tap)
 
-### Deployment
+## Deployment
 
 When it is time to deploy the code to AWS Lambda, simply type `gulp` and each
 of the apps will be zipped up and put in the `./lambda` folder for upload to AWS.
