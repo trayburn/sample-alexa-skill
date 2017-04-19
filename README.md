@@ -31,7 +31,7 @@ Skills Kit (ASK).
 ### Server
 
 In addition to the code for the skills, this project contains a 
-development server.  The code for this is in the file `./index.js' and
+development server.  The code for this is in the file `./index.js` and
 uses the `alexa-app-server` package.  This server is not deployed to
 lambda, and exists solely to make local development easier. 
 
