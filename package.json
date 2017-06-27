@@ -13,6 +13,7 @@
     "gulp-zip": "^4.0.0"
   },
   "dependencies": {
-    "alexa-app-server": "^3.0.1"
+    "alexa-app-server": "^3.0.1",
+    "gulp-vinyl-zip": "^2.0.0"
   }
 }

@@ -1,7 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 var gulp = require('gulp');
-var zip = require('gulp-zip');
+var zip = require('gulp-vinyl-zip');
 
 var appsPath = 'apps';
 
@@ -19,7 +19,6 @@ gulp.task('pack', function() {
 
    return apps.map(function(folder) {
       return gulp.src(path.join(appsPath, folder, '/**/*'))
-        .pipe(zip(folder + '.zip'))
-        .pipe(gulp.dest('lambda'));    
+        .pipe(zip.dest('lambda/' + folder + '.zip'));
    });
 });
