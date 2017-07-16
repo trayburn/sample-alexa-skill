@@ -43,7 +43,7 @@ ways to test, nothing is as sure a test as a real device.  Here are some ways
 you can test :
 
 * Development Server : http://localhost:4000/alexa/skill-name-here
-* Echoism : https://echoism.io
+* Echosim : https://echosim.io
 * Actual Amazon Device (i.e. Echo, Dot or Tap)
 
 ## Deployment
